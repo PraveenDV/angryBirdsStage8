@@ -14,6 +14,9 @@ var score = 0;
 
 var birds=[];
 
+function preload(){
+   bg=loadImage("bg1.png");
+}
 
 
 function setup(){
@@ -61,8 +64,8 @@ function setup(){
 }
 
 function draw(){
-    if(backgroundImg)
-        background(backgroundImg);
+    background(bg);
+        
     
         noStroke();
         textSize(35)
