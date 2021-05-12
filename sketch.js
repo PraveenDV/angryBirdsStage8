@@ -15,7 +15,7 @@ var score = 0;
 var birds=[];
 
 function preload() {
-    getBackgroundImg();
+   // getBackgroundImg();
 }
 
 function setup(){
