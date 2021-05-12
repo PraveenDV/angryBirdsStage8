@@ -14,9 +14,7 @@ var score = 0;
 
 var birds=[];
 
-function preload() {
-   // getBackgroundImg();
-}
+
 
 function setup(){
     var canvas = createCanvas(1200,400);
